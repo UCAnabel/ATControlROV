@@ -1,5 +1,5 @@
 # ATControlROV
-This application enables the determination of optimal values for controlling the attitude of the ROV BlueROV2 and BlueROV2 Heavy through a series of controlled trials and data processing. It facilitates both advanced and novice users in understanding and adjusting the ROV control system.
+This application enables the determination of optimal values for controlling the attitude of the ROV BlueROV2, BlueROV2 Heavy, and ROVs based on the ArduSub project, through a series of controlled trials and data processing. It facilitates both advanced and novice users to understand and adjust the ROV control system.
 
 The application utilizes various MATLAB tools and Python libraries to establish communication and control of the ROV.
 
@@ -23,7 +23,7 @@ Python libraries:
 
 Application Description:
 
-The main application is named BlueROV2.mlapp or BlueROV2Heavy.mlapp depending on the ROV model. The user interface allows for conducting trials in segments through a series of buttons. This setup enables advanced users to directly access the necessary options and novice users to understand each part of the ROV control system.
+The main application is named ATControl.mlapp. The user interface allows for conducting segment trials through a series of buttons. This setup enables advanced users to directly access the necessary options and novice users to understand each part of the ROV control system.
 
 Recommended Procedure:
 
@@ -64,3 +64,9 @@ Restrictions and Recommendations:
 •	Execution Order: Follow the recommended order to ensure proper control loop configuration.
 
 •	After executing the movement tests, the vehicle's internal state is reset to avoid errors in the next test run. Please wait before continuing with the next test.
+
+Sequential UML diagram depicting the program's sequence, specifically focusing on the YAW tests:
+![appYaw](https://github.com/UCAnabel/ATControlROV/assets/126328389/067cc1ff-81f6-4969-80b5-dd5d210a1412)
+
+
+
