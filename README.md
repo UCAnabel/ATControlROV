@@ -9,8 +9,6 @@ MATLAB:
 
 •	Control System Toolbox
 
-•	MATLAB Report Generator
-
 •	Signal Processing Toolbox
 
 •	System Identification Toolbox
@@ -35,36 +33,34 @@ Recommended Procedure:
 
 3.	Conduct Trials and Process Data:
 
-4.	Depth: 		
-	
-    4.1.	 Press "DEPTH", process data, adjust PID Inner Loop. 
-
-    4.2.	Press "DEPTH2", process data2, adjust PID Inter Loop.
-
-    4.3.	Press "DEPTH3", process data3, adjust PID Outer Loop.
-
-5.	Yaw:
+4.	Yaw:
  
-    5.1.	Press "YAW", process data, adjust PID Inner Loop. 
+    4.1.	Press "YAW", process data, and adjust PID Inner Loop. 
 
-    5.2.	Press "YAW2", process data2, adjust PID Outer Loop.
-6.	Roll: 
+    4.2.	Press "YAW2", process data2, adjust PID Outer Loop.
 
-    6.1.	Press "ROLL", process data, adjust PID Inner Loop. 
+    4.3.	Press "Save Yaw Results" to test the movement with the calculated PID values and save the results in the "results" folder.
+5.	Roll: 
 
-    6.2.	Press "ROLL2", process data2, adjust PID Outer Loop.
-7.	Pitch: 
+    5.1.	Press "ROLL", process data, and adjust PID Inner Loop. 
 
-    7.1.	Press "PITCH", process data, adjust PID Inner Loop.
+    5.2.	Press "ROLL2", process data2, adjust PID Outer Loop.
 
-    7.2.	Press "PITCH2", process data2, adjust PID Outer Loop.
-8.	Generate Report: After completing all trials, press "TEST REPORT" to generate a report with the results.
+    5.3.	Press "Save Roll Results" to test the movement with the calculated PID values and save the results in the "results" folder.
+
+6.	Pitch: 
+
+    6.1.	Press "PITCH", process data, and adjust PID Inner Loop.
+
+    6.2.	Press "PITCH2", process data2, adjust PID Outer Loop.
+
+    6.3.	Press "Save Pitch Results" to test the movement with the calculated PID values and save the results in the "results" folder.
+
+
 Restrictions and Recommendations:
 
-•	Depth: Keep test time under 5 meters limited.
-
-•	Roll and Pitch: Do not exceed ±30 degrees to prevent ROV instability.
+•	It is recommended not to change the target values or test duration, although advanced users may modify these values according to their specific needs.
 
 •	Execution Order: Follow the recommended order to ensure proper control loop configuration.
 
-•	Only generate the TEST REPORT if all trials are completed.
+•	After executing the movement tests, the vehicle's internal state is reset to avoid errors in the next test run. Please wait before continuing with the next test.
