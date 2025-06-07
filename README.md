@@ -1,4 +1,10 @@
 # ATControlROV
+
+ATControlROV has been developed by **Dr. Ana Isabel Vázquez Mejías** and is released under the MIT License.
+The software is free to use, modify, and distribute for academic, research, or commercial purposes. However, proper attribution to the original author is required in any derivative or published work.
+
+For further technical details and application use cases, refer to the article published in SoftwareX:
+https://doi.org/10.1016/j.softx.2025.102189
 This application enables the determination of optimal values for controlling the attitude of the ROV BlueROV2, BlueROV2 Heavy, and ROVs based on the ArduSub project, through a series of controlled trials and data processing. It facilitates both advanced and novice users to understand and adjust the ROV control system.
 
 The application utilizes various MATLAB tools and Python libraries to establish communication and control of the ROV.
